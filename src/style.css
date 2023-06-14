@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}    
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #242424; */
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #4cb2e5, #95c5dc);
+    /* background-color: aquamarine; */
+    padding: 5px;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 5px;
+}
+
+.main-section{
+    display: flex;
+}
+
+.list{
+    width: 500px;
+    height: 100vh;
+    padding: 5px;
+    /* padding: 10px; */
+    overflow-y: scroll;
+}
+
+.list-div{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.loading{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 0.25px solid gray;
+    border-radius: 5px;
+}
+
+.card-title-name{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+/* .card-title{
+    
+} */
+
+.card-img{
+    height: 50px;
+    object-fit: cover;
+}
+
+.rating-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cuisines{
+    display: flex;
+    justify-content: space-between;
+}
+.cuisine-item{
+    display: inline;
+    margin-left: 5px;
+    color: red;
+    background-color: gainsboro;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.card-address{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.card-navigation{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+
+.card-nav-btn{
+    border-radius: 5px;
+    background-color: gainsboro;
+    border: none;  
+}
+
+.card-nav-btn:hover{
+    background-color:aquamarine;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.map{
+    width: "100%";
+    margin: 0;
+}
+
+.card-marker{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    background-color: gainsboro;
+    color: gray;
+    padding: 5px;
+    padding-bottom: 10px;
+    border: 1px solid red;
+}
+
+/* ********Star rating*** */
+
+/* .rating-div{
+    
+} */
+
+
